@@ -43,7 +43,7 @@ public class TicTacToeAI extends JFrame{
         add(statusLabel);
 
         //restart button
-        JButton restart=new JButton(".");
+        JButton restart=new JButton("new");
         restart.setBounds(360,10,40,40);
         restart.setFont(new Font("Arial",Font.BOLD,18));
         restart.setFocusPainted(false);
